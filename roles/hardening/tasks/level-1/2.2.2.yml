@@ -13,3 +13,4 @@
     - level-1
     - "2.2.2"
     - scored
+  ignore_errors: true
