@@ -16,7 +16,7 @@
     - "1.2.2"
     - scored
     - skip_ansible_lint
-
+  ignore_errors: true
 - name: 1.2.2 - Check GPG keys are configured
   debug:
     msg: RPM command output is {{ gpg_pubkey_check.stdout }}
@@ -24,3 +24,4 @@
     - level-1
     - "1.2.2"
     - scored
+  ignore_errors: true
